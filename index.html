@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bride Price Calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Bride Price Calculator</h1>
+
+        <img src="https://f.azh.kz/news/28554.jpg" alt="" srcset="">
+
+        <br>        
+
+        <form method="post">
+
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name">
+
+            <br> <br>
+
+            <label for="price">Starting price: </label>
+            <input type="number" id="price" name="price">
+
+            <br> <br>
+
+            <h3>Education Level</h3>
+            <select name="education" id="education">
+                <option value="undergraduate">Undergraduate Degree</option>
+                <option value="college">College Degree</option>
+                <option value="high-school">High School Degree</option>
+                <option value="middle-school">Middle School Degree</option>
+            </select>
+
+            <br><br>
+
+            <h3>Family Net Worth</h3>
+            <select name="net-worth" id="net-worth">
+                <option value="upper-class">More than $100K</option>
+                <option value="middle-class">Between $50K and $100K</option>
+                <option value="lower-class">Less than $50K</option><br>
+            </select>
+
+            <br><br>
+
+            <h3>Personal Skills</h3>
+            <input type="checkbox" name="skills" value="100">
+            <label for="dombyra">Playing on dombyra</label><br>
+            <input type="checkbox" name="skills" value="200">
+            <label for="cooking">Good cook</label><br>
+            <input type="checkbox" name="skills" value="150">
+            <label for="easygoing">Easygoing character</label><br>
+            <input type="checkbox" name="skills" value="100">
+            <label for="sings">Sings well</label><br>
+
+            <br>
+
+            <h3>Age</h3>
+            <input type="radio" name="age" value="1.5">
+            <label for="lower-age">Between 18 and 23</label><br>
+            <input type="radio" name="age" value="1.2">
+            <label for="middle-age">Between 24 and 27</label><br>
+            <input type="radio" name="age" value="0.95">
+            <label for="upper-age">More than 28</label><br>
+
+            <br>
+
+            <h3>Reputation / Gossips</h3>
+            <input type="checkbox" name="gossips" value="attitude">
+            <label for="attitude">About parent's attitude</label><br>
+            <input type="checkbox" name="gossips" value="character">
+            <label for="character">About character</label><br>
+            <input type="checkbox" name="gossips" value="person">
+            <label for="person">Around person</label><br>
+
+            <br>
+
+            <h3>Love letter:</h3>
+            <textarea name="letter" id="letter" cols="50" rows="15" maxlength="500"></textarea><br>
+
+            <br>
+
+            <input type="button" id="submit" value="Submit"><br>
+
+            <br>
+
+        </form>
+
+    </div>
+    
+
+</body>
+<script src="./app.js"></script>
+</html>
